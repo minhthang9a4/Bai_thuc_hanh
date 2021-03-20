@@ -8,7 +8,7 @@ except:
 
 a = []
 
-for i in range(n):
+for i in range(0,n):
     a.append(input('Nhap so thu %d: ' % (i+1)))
 
 print(a)
