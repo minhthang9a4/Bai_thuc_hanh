@@ -6,7 +6,9 @@ done = False
 while not done:
     val=int(input(" Nhap mot so: "))
     num = guess()
+    if val >= 11:
+        print("Sai roi dit con me !!")
+        exit()
     if val == num:
       print("Doan dung roi !! ")
       done = True
-    
