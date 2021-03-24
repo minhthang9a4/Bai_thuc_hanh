@@ -7,7 +7,7 @@ while not done:
     val=int(input(" Nhap mot so: "))
     num = guess()
     if val >= 11:
-        print("Sai roi dit con me !!")
+        print("Nhap sai roi !!")
         exit()
     if val == num:
       print("Doan dung roi !! ")
